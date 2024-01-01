@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 
 int main() {
-    system("cls");
+    clearScreen();
     // printf("Hello World");
     _Bool isHelloWorld = 1;
     int rgbColor = 0xFFEF0D;
